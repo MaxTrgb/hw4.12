@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 118px;
+}
+
+header {
+    width: 100%;
+    height: 124px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+    position: fixed;
+    top: 0;
+}
+
+.header__lines {
+    display: flex;
+}
+
+.header_redLine {
+    width: 28%;
+    height: 8px;
+    flex-shrink: 0;
+    background: #E50050;
+}
+
+.header_greenLine {
+    width: 72%;
+    height: 8px;
+    flex-shrink: 0;
+    background: #4DAF8A;
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.logoOne {
+    width: 180px;
+    height: 78px;
+}
+
+
+.header__main_locaion {
+    display: flex;
+    width: 510px;
+}
+
+#locationIcon {
+    max-width: 32px;
+    min-width: 32px;
+    max-height: 32px;
+    min-height: 32px;
+}
+
+.header__main_locaion>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__main_locaion>div>a:first-child {
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 1px;
+    margin-left: 13px;
+    text-decoration: none;
+}
+
+.header__main_locaion>div>a:last-child {
+    color: #E50050;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 12px;
+
+}
+
+.header__main_number {
+    display: flex;
+    margin-left: 20px;
+    gap: 12px;
+    text-decoration: none;
+    color: #000;
+
+
+}
+
+#phoneIcon {
+    max-width: 32px;
+    min-width: 32px;
+    max-height: 32px;
+    min-height: 32px;
+}
+
+.header__main_number h3 {
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.header__main_nav {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.header__main_nav ul {
+    display: flex;
+}
+
+.header__main_nav li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.header__main_nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 700;
+}
