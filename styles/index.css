@@ -90,8 +90,18 @@ header {
     gap: 12px;
     text-decoration: none;
     color: #000;
+    
 
+}
 
+#telNumber {
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -5px;
 }
 
 #phoneIcon {
@@ -256,6 +266,8 @@ footer {
     border-radius: 5px;
     border: 1px solid #4DAF8A;
     background: #EFFFF7;
+    padding-top: 18px;
+    padding-left: 18px;
 
 }
 
@@ -301,5 +313,5 @@ footer {
     background: #E50050;
     box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.15);
     margin-left: 155.48px;
-    
+
 }
