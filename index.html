@@ -11,10 +11,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>    
+<body>
     <header>
         <div class="header__lines">
             <div class="header_redLine"></div>
@@ -41,7 +45,6 @@
                     (03245) 7-03-02
                 </h2>
             </a>
-
             <nav class="header__main_nav container">
                 <ul>
                     <li>
@@ -64,7 +67,82 @@
         </div>
     </header>
     <main>
-
+        <section class="hero">
+            <div class="hero_container">
+            <h1>Анонімне звернення</h1>
+            <p>
+                Залиште анонімний відгук, скаргу або пропозицію щодо роботи наших працівників.
+                Повідомлення бачитиме лише завідувач поліклініки.
+            </p>
+            <form>
+                <textarea name="form_message" id="" cols="" rows="" placeholder="Ваше повідомлення..."></textarea>
+                <div class="hero__form_checkbox">
+                    <input type="checkbox" name="answer" id="answer" >
+                    <label for="answer">Я хочу отримати офіційну відповідь на email</label>
+                    <input type="submit" value="НАДІСЛАТИ">
+                </div>
+            </form>        
+        </div>
+        </section>
     </main>
+    <footer>
+        <div class="footer">
+            <a class="footer__logo" href="#">
+                <img src="assets/footer-logo.svg" alt="footer-logo">
+            </a>
+            <nav class="footer__navigation1">
+                <ul>
+                    <li>
+                        <a href="#">Підрозділи</a>
+                    </li>
+                    <li>
+                        <a href="#">Графіки роботи</a>
+                    </li>
+                    <li>
+                        <a href="#">Декларація з лікарем</a>
+                    </li>
+                    <li>
+                        <a href="#">Доступні ліки</a>
+                    </li>
+                    <li>
+                        <a href="#">Про поліклініку</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="footer__navigation2">
+                <ul>
+                    <li>
+                        <a href="#">Публічні закупівлі</a>
+                    </li>
+                    <li>
+                        <a href="#">Профспілка медичних працівників</a>
+                    </li>
+                    <li>
+                        <a href="#">Міські цільові соціальні програми</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__socialMedia">
+                <h6>Тримайте руку на пульсі</h6>
+                <p>слідкуйте за оновленнями в соц. мережах</p>
+                <div>
+                    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/bi-facebook.svg" alt="facebook-icon">
+                    </a>
+                    <a href="http://telegram.org" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/akar-icons-telegram-fill.svg" alt="telegram-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__underline">
+            <p>
+                © 2023 комунального некомерційного підприємства Стрийської міської ради
+                Використання матеріалів сайту дозволяється лише з посиланням на джерело
+            </p>
+        </div>
+    </footer>
 </body>
+
 </html>
